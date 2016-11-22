@@ -12,3 +12,5 @@ docker build -t drhetnet/ubuntu1604java8:v1 .
 ```
 docker pull drhetnet/ubuntu1604java8
 ```
+
+After this you should see the image listed when you issue a `docker list` command. You can run the container with the `docker run drhetnet/docker-ubuntu1604java8:v1 <insert your command here>`
