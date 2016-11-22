@@ -15,6 +15,7 @@ Alternatively, if you'd like to use the image commited to dockerhub, you can use
 docker pull drhetnet/ubuntu1604java8
 ```
 
+## Running the Container
 After this you should see the image listed when you issue a `docker images` command. You can run the container with:
 ```
 docker run drhetnet/docker-ubuntu1604java8:v1 <insert your command here>
