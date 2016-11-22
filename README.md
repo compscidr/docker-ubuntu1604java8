@@ -1,2 +1,10 @@
 # docker-ubuntu1604java8
-Ubuntu 16.04 with oracle java 8 in a docker image. Dockerfile to create from scratch and instructions on docker hub
+The following instructions assume you already have docker install correctly. 
+
+## Build the Image from Scratch
+'''git clone https://github.com/drhetnet/docker-ubuntu1604java8.git
+cd docker-ubuntu1604java8
+docker build -t drhetnet/ubuntu1604java8:v1 .
+
+## Docker Hub
+'''docker pull drhetnet/ubuntu1604java8'''
