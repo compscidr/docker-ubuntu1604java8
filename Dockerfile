@@ -2,7 +2,7 @@
 # Build image with:  docker build -t drhetnet/ubuntu1604java8:v1 .
  
 FROM ubuntu:16.04
-MAINTAINER Jason Ernst, https://github.com/drhetnet
+MAINTAINER Jason Ernst, https://github.com/compscidr
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y  software-properties-common && \
